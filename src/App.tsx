@@ -1,3 +1,9 @@
+/*
+ * File-Comparator
+ * @Carlosssm
+ * 22/10/2026
+ */
+
 import React, { useState } from 'react';
 import { CustomXMLParser } from './core/parsers/xml.parser';
 import { CustomCSVParser } from './core/parsers/csv.parser';
@@ -81,7 +87,7 @@ export default function App() {
 
   return (
     <div style={{ padding: '20px', fontFamily: 'system-ui, -apple-system, sans-serif', maxWidth: '100%', margin: '0 auto' }}>
-      <h1 style={{ color: '#1a1a1a', marginBottom: '4px', fontSize: '24px' }}>Universal Diff</h1>
+      <h1 style={{ color: '#1a1a1a', marginBottom: '4px', fontSize: '24px' }}>File Comparator</h1>
       <p style={{ color: '#666', marginBottom: '20px', fontSize: '14px' }}>Comparación de 1 Archivo Base contra N Archivos</p>
 
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '16px' }}>

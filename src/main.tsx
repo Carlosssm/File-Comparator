@@ -1,3 +1,9 @@
+/*
+ * File-Comparator
+ * @Carlosssm
+ * 22/10/2026
+ */
+
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'

@@ -1,3 +1,9 @@
+/*
+ * File-Comparator
+ * @Carlosssm
+ * 22/10/2026
+ */
+
 import { SchemaNode, UnifiedSchema } from '../types/schema';
 import { MultiFileComparisonOutput, MatrixRow, FieldFileStatus } from '../types/comparison';
 
